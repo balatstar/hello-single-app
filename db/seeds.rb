@@ -1,0 +1,5 @@
+Message.create(message: 'Hello, World!')
+Message.create(message: 'Magandang umaga!')
+Message.create(message: 'Ohayou gozaimasu!')
+Message.create(message: 'Guten tag!')
+Message.create(message: 'Annyeong haseyo!')

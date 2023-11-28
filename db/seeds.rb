@@ -1,0 +1,5 @@
+Message.create(message: 'Hello, World!')
+Message.create(message: 'Greetings from Rails!')
+Message.create(message: 'Welcome to my app!')
+Message.create(message: 'Hola amigos!')
+Message.create(message: 'Bonjour tout le monde!')

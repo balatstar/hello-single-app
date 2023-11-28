@@ -10,7 +10,7 @@ export const fetchGreetings = createAsyncThunk(
   async () => {
     try {
       const response = await fetch(
-        'http://localhost:3000/api/greetings/random'
+        'http://localhost:3000/api/greetings/random',
       );
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -21,7 +21,7 @@ export const fetchGreetings = createAsyncThunk(
     } catch (error) {
       throw new Error('Something went wrong with fetching quote');
     }
-  }
+  },
 );
 
 const greetingSlice = createSlice({

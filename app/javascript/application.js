@@ -12,5 +12,5 @@ ReactDOM.render(
   <Provider store={store}>
     <Greeting />
   </Provider>,
-  document.getElementById('root');
+  document.getElementById('root'),
 );

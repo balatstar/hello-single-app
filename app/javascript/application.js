@@ -14,5 +14,5 @@ const reactRoot = createRoot(root);
 reactRoot.render(
   <Provider store={store}>
     <Greeting />
-  </Provider>
+  </Provider>,
 );
